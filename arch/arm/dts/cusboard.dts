@@ -34,10 +34,10 @@
     };
 };
 
-# &i2c_0 {
-#     status = "okay";
-# };
+// &i2c_0 {
+//     status = "okay";
+// };
 
-# &i2c_1 {
-#     status = "okay";
-# };
+// &i2c_1 {
+//     status = "okay";
+// };
