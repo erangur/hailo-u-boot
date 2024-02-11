@@ -37,6 +37,10 @@
         dtb-ddr-load-address = <0x0 CONFIG_HAILO15_DTB_ADDRESS 0x0 CONFIG_HAILO15_DTB_MAX_SIZE>;
     };
 
+    shutdown_indicator: shutdown_indicator@0 {
+        shutdown-gpio-pin = <20>;
+    };
+
     serial: uart@00109000 {
         compatible = "snps,dw-apb-uart";
         reg = <0 0x00109000 0 0x1000>;
