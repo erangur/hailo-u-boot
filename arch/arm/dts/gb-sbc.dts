@@ -66,3 +66,6 @@
     status = "okay";
 };
 
+&hailo_boot_info {
+    shutdown-gpio-pin = <2000>; //intentionally out of range, to override the default 20
+};
