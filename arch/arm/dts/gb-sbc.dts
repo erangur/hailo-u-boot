@@ -67,5 +67,5 @@
 };
 
 &hailo_boot_info {
-    shutdown-gpio-pin = <0>; //intentionally out of range, to override the default 0
+    shutdown-gpio-pin = <200>; //intentionally out of range, to override the default 200
 };
